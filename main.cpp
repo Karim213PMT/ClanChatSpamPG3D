@@ -31,7 +31,7 @@ bool isChatSpamClan = false;
 bool clanchatcontrollerhookinitialized = false;
 
 
-void (*SendChatMessage)(void* _this, monoString*-text, monoString* iconName);
+void (*SendChatMessage)(void* _this, monoString* text, monoString* iconName);
 
 void(*old_ClanChatControllerUpdate)(void *instance);
 void ClanChatControllerUpdate(void *instance) {
