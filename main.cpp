@@ -21,11 +21,6 @@
 #include "Substrate/CydiaSubstrate.h"
 #endif
 
-/* 
-Big Credits To Chewy And Slice Cast.
-This MAY Not Work! This is Just a Test.
-*/
-
 bool isChatSpamClan = false;
 
 bool clanchatcontrollerhookinitialized = false;
