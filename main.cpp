@@ -36,7 +36,7 @@ void ClanChatControllerUpdate(void *instance) {
             LOGI("GameManager_LateUpdate hooked");
         }
         if (isChatSpamClan) {
-            SendChatMessage(instance, CreateMonoString("Slice Cast And Chewy R Pog"), false, CreateMonoString("Slice Cast And Chewy R Pog"));
+            SendChatMessage(instance, CreateMonoString("Slice Cast And Chewy R Pog"), CreateMonoString("Slice Cast And Chewy R Pog"));
         }
     }
     old_ClanChatControllerUpdate(instance);
